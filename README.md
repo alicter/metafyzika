@@ -1,0 +1,3 @@
+# metafyzika
+Cvičebnice metafyziky
+Stáhněte si interaktivní cvičebnici Metafyziky aristotelsko-tomistické tradice... 

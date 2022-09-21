@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="CS">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="stylStandart.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+        <title>METAFYZIKA</title>
+    </head>
+    <body>
+        <div id="hlavniDiv">
+            <div id="logoDiv"><a id="logoA" onclick="zmena(2)">M</a></div>
+            <h3>Videa o pojmech a jejich definicích</h3>
+            <p>Smíte si zvolit video o pojmu.</p>
+            <p class="nadpisVidea">1. jsoucno </p>
+            <video id="video1" controls autoplay onplay="pridejCas()" onpause="stopniCas()"> <source src="1.mp4"> </video>
+            <h3 id="h3Id"></h3>
+        </div>
+    </body>
+    <script src="videa.js"></script>
+</html>
